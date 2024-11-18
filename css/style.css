@@ -296,3 +296,23 @@ a:hover {
 .footer .btn-link:hover {
     color: #1d87ff; /* Bleu vif au survol */
 }
+
+#cartes .property-item {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cartes .property-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#cartes .property-item .p-4 {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
